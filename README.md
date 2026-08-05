@@ -1,18 +1,22 @@
-# Marqueymarc Tap
+# Marc Meyer's Homebrew Tap
 
-## How do I install these formulae?
+## SlideSorter
 
-`brew install marqueymarc/tap/<formula>`
+Install SlideSorter and its Python and ffmpeg dependencies:
 
-Or `brew tap marqueymarc/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "marqueymarc/tap"
-brew "<formula>"
+```sh
+brew install marqueymarc/homebrew-tap/slidesorter
 ```
 
-## Documentation
+Upgrade it later:
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```sh
+brew update
+brew upgrade slidesorter
+```
+
+The formula pins a release tag and SHA-256 checksum. A scheduled GitHub Action
+checks SlideSorter releases daily and updates the formula when a new stable
+release is published. It can also be run manually from the Actions tab.
+
+More about SlideSorter: <https://github.com/marqueymarc/slidesorter>.
