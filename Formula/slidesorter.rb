@@ -3,8 +3,8 @@ class Slidesorter < Formula
 
   desc "Local-first, recoverable photo and video review"
   homepage "https://github.com/marqueymarc/slidesorter"
-  url "https://github.com/marqueymarc/slidesorter/archive/refs/tags/v3.9.0.tar.gz"
-  sha256 "887875a887d6d42c1ff21d487c3e60b6807ed257745312fcf07f96ce7801a891"
+  url "https://github.com/marqueymarc/slidesorter/archive/refs/tags/v3.9.1.tar.gz"
+  sha256 "7aca675ca0172f440b2d1d666aecc017d67dd7dcf198189eb82af17b6a1f9e5a"
   license "MIT"
 
   depends_on "ffmpeg"
