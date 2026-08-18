@@ -3,6 +3,7 @@ class Contactsls < Formula
   homepage "https://github.com/marqueymarc/contactsls"
   url "https://github.com/marqueymarc/contactsls/archive/refs/tags/v1.0.1.tar.gz"
   sha256 "a5bc67fc6c23344a7ffd8887dcabd27c06c427cfb27695579428a37ee178241b"
+  license "MIT"
 
   depends_on "swift" => :build
 

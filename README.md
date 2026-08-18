@@ -32,4 +32,7 @@ brew install marqueymarc/tap/contactsls
 It also installs Zsh completion. `--location` reverse-geocodes coordinates
 through Apple only when you explicitly request it.
 
+The formula checks for the newest stable GitHub release daily and can be
+refreshed manually from the Actions tab.
+
 More about contactsls: <https://github.com/marqueymarc/contactsls>.
